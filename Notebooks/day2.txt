@@ -21,3 +21,15 @@
     block header:只有根哈希值，没有交易的具体内容
     block body  :有交易的列表
     merkle proof(默克尔证明):merkle tree中从data blocks到根节点的路径，证明特定数据块属于Merkle tree的一种方法。
+七.区块
+    1.block header
+    version:用的比特币哪个版本的协议
+    hash of previous block header
+    Merkle root hash
+    target: H(block header)<=target(存的是目标阈值的编码)
+    nonce: 随机数
+    2.block body
+    transaction list(交易记录) 
+    3.节点
+    全节点：包含block header和block body
+    轻节点：只包含block header

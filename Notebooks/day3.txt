@@ -1,0 +1,15 @@
+一. longest valid chain(最长合法链)
+    接受合法区块
+二.cionbase transaction
+    获得比特币的唯一途径
+    50BTC->25BTC->12.5BTC
+    (21万后减一半)
+三.UTXO(Unspent Transaction output)
+    保存输出的数据结构
+四.出块奖励
+    每个十分钟出一个块
+    每四年出块奖励减半(大约四年产生21万个区块)
+五.挖矿方式
+    外层循环是coinbase(8 byte)
+    内层循环是block header里的nonce(4 byte)
+六.
